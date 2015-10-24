@@ -2,3 +2,26 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Dev Actions
+tagline:          'Programmer'
+description:      'Articles for developers. <br />By <a href="https://twitter.com/ShadAmez" target="_blank">@ShadAmez</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Shad'
+  url:            https://twitter.com/ShadAmez
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+footer-links:
+  github: amezng
+  twitter: ShadAmez

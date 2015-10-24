@@ -1,9 +1,22 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Get started with Scala on this weekend
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+This is an attempt to help Java developers switch to [Scala](http://www.scala-lang.org/) in just two days. Assuming you are comfortable with eclipse/intelliJ, you can easily set up the development environment by downloading the [scala-ide](http://scala-ide.org/download/current.html) or install the scala plugin for the intelliJ. Watch the below tutorial.
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Ok7gYD1VbNw" frameborder="0" allowfullscreen></iframe>
+
+Once you have set up the environment, you can go ahead with the next tutorial which introduces the basics of Oops as implemented in scala. The entire get started tutorial is divided into two days, so that its easy to finish off within a weekend.
+
+### [First Day : Saturday](https://twitter.com/mdo)
+
+```scala
+val myFuture = MySlowService(request) // returns right away
+   ...do other things...
+val serviceResult = myFuture.get() // blocks until service "fills in" myFuture
+```
+
 
 ### Built on Poole
 

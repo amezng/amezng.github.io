@@ -60,7 +60,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #fff;
+  background-color: #F4F8FA;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -229,9 +229,13 @@ blockquote p:last-child {
 
 img {
   display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
+  /* max-width: 100%; */
+  /* margin: 0 0 1rem; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   border-radius: 5px;
+  background-position: center center;
 }
 
 /* Tables */
